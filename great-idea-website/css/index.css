@@ -71,65 +71,54 @@ h1, h2, h3, h4, h5 {
 
 .navigation {
 	margin: 30px 20px;
-	display: inline-block;
-}
-
-.logo {
-	position: relative;
-	left: 100px;
-	top: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
 }
 
 .navigation a{
-	margin: 0 auto;
-	padding-left: 60px;
 	color: lightgrey;
 	text-decoration: none;
-	display: inline-block;
 }
 
 header {
+	display: flex;
 	padding-bottom: 100px;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .main-heading {
 	font-size: 70px;
 	color: black;
-	width: 270px;
 	text-align: center;
-	display: inline-block;
-	position: relative;
-	left: 150px;
-	bottom: 60px;
+	margin-left: 150px;
 }
 
 .header-image {
-	display: inline-block;
-	position: relative;
-	left: 120px;
-	top: 50px;
+	padding-right: 60px;
+	padding-top: 30px;
 }
 
 button {
-	display: inline-block;
 	font-size: 20px;
-	position: relative;
-	bottom: 5px;
-	right: 80px;
+	width: 200px;
+	height: 30px;
 	border: 1px solid black;
-	padding: 5px 40px;
 	background-color: white;
+	position: relative;
+	top: 130px;
+	right: 230px;
 }
 
 .first-section {
-	display: inline-block;
+	display: flex;
 	border-top: 1px solid black;
 	padding-top: 30px;
 	margin-left: 60px;
 
 }
 .features-about {
-	display: inline-block;
 	width: 400px;
 	height: 150px;
 	margin-left: 50px;
@@ -141,7 +130,7 @@ button {
 }
 
 .second-section {
-	display: inline-block;
+	display: flex;
 	border-bottom: 1px solid black;
 	padding-top: 40px;
 	margin-left: 60px;
@@ -149,7 +138,6 @@ button {
 
 .spv {
 	width: 250px;
-	display: inline-block;
 	height: 150px;
 	margin-left: 50px;
 	margin-bottom: 30px;
@@ -161,7 +149,7 @@ button {
 }
 
 footer {
-	display: block;
-	text-align: center;
+	display: flex;
+	justify-content: center;
 	margin-bottom: 40px;
 }
